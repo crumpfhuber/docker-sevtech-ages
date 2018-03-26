@@ -38,7 +38,7 @@ spec:
         app: minecraft
     spec:
       containers:
-      - image: mysql:5.6
+      - image: quay.io/kelwing/ssl-ftb-beyond
         name: minecraft
         ports:
         - containerPort: 25565
