@@ -1,7 +1,7 @@
 FROM java:8-alpine
 MAINTAINER Jacob Wiltse <kelwing@kelnet.org>
 
-RUN mkdir -p /opt/ftb
+RUN mkdir -p /opt/ftb/world
 WORKDIR /opt/ftb
 RUN apk --no-cache add curl wget ca-certificates
 RUN curl -L -o server.zip https://www.feed-the-beast.com/projects/ftb-beyond/files/2482845/download && unzip server.zip && rm -f server.zip
