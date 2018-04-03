@@ -38,7 +38,7 @@ spec:
         app: minecraft
     spec:
       containers:
-      - image: quay.io/kelwing/sevtech-ages
+      - image: quay.io/kelwing/sevtech-ages:v1.0.0
         name: minecraft
         resources:
           requests:
