@@ -9,4 +9,4 @@ COPY ops.json server.properties ./
 RUN sed -i 's/2048M/4096M/g' settings.sh
 RUN /bin/bash Install.sh
 
-CMD ["sh", "ServerStart.sh"]
+CMD ["sh", "Start.sh"]
